@@ -67,10 +67,13 @@ const Formulario = () => {
                   <span className="text-indigo-600 font-bold">Administralos</span>
             </p>
 
+            { msg && <Alerta alerta={alerta} />}
             
             <form
-                className="bg-white py-10 px-5 mb-10 lg:mb-3 shadow-md rounded-md"
+
+                className="bg-white py-10 px-10 mb-10 lg:mb-3 shadow-md rounded-md"
                 onSubmit={handleSubmit}
+                        
             >
                 <div className="mb-5">
                     <label 
@@ -155,7 +158,7 @@ const Formulario = () => {
                 />
             </form>
 
-            { msg && <Alerta alerta={alerta} />}
+                        
         
         </>
   )

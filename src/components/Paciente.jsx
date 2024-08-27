@@ -34,7 +34,7 @@ const Paciente = ({paciente}) => {
             </p>   
 
             <p className="font-bold uppercase text-indigo-700">Sintomas: {''}
-                <span className="font-normal normal-case text-black" >{nombre}</span>
+                <span className="font-normal normal-case text-black" >{sintomas}</span>
 
             </p>
 

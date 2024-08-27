@@ -117,7 +117,7 @@ const Registrar = () => {
                         <label
                             className="uppercase text-gray-600 block text-xl font-bold"
                         >
-                            Password
+                            Repetir Password
                         </label>
                         <input
                             type="password"
